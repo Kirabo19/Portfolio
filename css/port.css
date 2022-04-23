@@ -51,6 +51,10 @@ body {
   color: #344563;
 }
 
+a {
+  text-decoration: none;
+}
+
 .media_p {
   color: #7f8cff;
 }

@@ -96,6 +96,10 @@ a {
   width: 327px;
 }
 
+.title:nth-of-type(even) {
+  height: 596px;
+}
+
 .title-text {
   height: 288px;
 }
@@ -110,59 +114,6 @@ a {
   font-size: 32px;
   line-height: 44px;
   margin: 0;
-}
-
-.t-text .port ul {
-  display: flex;
-  justify-content: space-between;
-  width: 236px;
-  padding: 0;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
-
-.t-text ul li:first-child {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #344563;
-}
-
-.intro-text {
-  margin-top: 80px;
-} 
-
-.btn {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #6070ff;
-  background: #ffffff;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-  padding: 8px 10px;
-  width: fit-content;
-}
-
-.btn:hover {
-  box-sizing: border-box;
-  border-radius: 8px;
-  background: #6070ff;
-  color: #ffffff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  cursor: pointer;
-}
-
-.btn-mastery {
-  width: 120px;
-  letter-spacing: 0.03em;
-  margin: 10px 0;
-}
-
-.btn-resume {
-  text-decoration: none;
 }
 
 .mastery ul {
@@ -186,33 +137,6 @@ a {
   padding: 4px 12px;
 }
 
-.q-text {
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.aim {
-  padding: 30px 0px;
-}
-.aim ul {
-  list-style: none;
-  margin: 10px 0;
-  padding: 0;
-}
-
-.aim ul li {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 16px;
-  background-color: #ffffff;
-  font-weight: 500;
-  color: #000000;
-}
 section .aim {
   padding: 30px 0;
 }
@@ -235,6 +159,65 @@ section .aim ul li {
   color: #000;
 }
 
+.t-text .port ul {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.t-text ul li:first-child {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #344563;
+}
+
+.intro-text {
+  margin-top: 80px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  background: #fff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: fit-content;
+}
+
+.btn:hover {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
+}
+
+.btn-mastery {
+  width: 120px;
+  letter-spacing: 0.03em;
+  margin: 10px 0;
+}
+
+.btn-resume {
+  text-decoration: none;
+}
+
+.q-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .arrow-right {
   display: flex;
   justify-content: end;
@@ -243,3 +226,9 @@ section .aim ul li {
   font-weight: normal;
 }
 
+.ul .first-child {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #344563;
+}

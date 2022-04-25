@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  
 }
 
 html {
@@ -282,8 +281,3 @@ section .aim ul li {
   margin-bottom: 10px;
   margin-top: 0;
 }
-/*.grid {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 65px;
-}*/

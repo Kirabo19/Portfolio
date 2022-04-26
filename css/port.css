@@ -15,16 +15,22 @@ body {
 
 .bk_container {
   background-color: #e5e5e5;
+  max-width: 375px;
+  height: 500vh;
+  margin: auto;
 }
 
 .port_container {
   max-width: 375px;
   height: 100vh;
-  margin: auto;
   background-image: url('../images/header-shapes\ mobile.png');
   background-color: #fff;
   border-bottom-left-radius: 100px;
   padding-top: 10px;
+}
+
+.header{
+  padding: 0 35px;
 }
 
 .container {

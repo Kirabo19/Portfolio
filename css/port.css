@@ -10,7 +10,12 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+.bk_container {
   background-color: #e5e5e5;
+ 
 }
 
 .port_container {
@@ -266,7 +271,7 @@ section .aim ul li {
 }
 
 .about {
-  width: 100%;
+  width: 375px;
   margin: 70px auto;
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -280,4 +285,9 @@ section .aim ul li {
   color: #172b4d;
   margin-bottom: 10px;
   margin-top: 0;
+}
+
+.about_img {
+ position: relative;
+ bottom: -9px;
 }

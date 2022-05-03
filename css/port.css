@@ -300,3 +300,12 @@ section .aim ul li {
 .contact_container {
   margin-top: 3850px;
 }
+
+.msg {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  font-weight: 400px;
+  margin-top: 40px;
+}

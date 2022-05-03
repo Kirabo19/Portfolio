@@ -34,8 +34,9 @@ body {
 }
 
 .container {
-  width: 327px;
+  width: 87.2%;
   margin: auto;
+  
 }
 
 .logo {
@@ -298,7 +299,25 @@ section .aim ul li {
 }
 
 .contact_container {
-  margin-top: 3850px;
+  margin-top: 3870px;
+  padding: 70px 0;
+  height: 850px;
+  background-color: #6070ff;
+  border-top-left-radius: 90px;
+  background-image: url('../images/contact\ form\ shapes-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  
+}
+
+.feedback {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-right: 30px;
 }
 
 .msg {
@@ -308,4 +327,56 @@ section .aim ul li {
   color: #ebebff;
   font-weight: 400px;
   margin-top: 40px;
+}
+
+input {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  padding: 10px 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: #172b4d;
+
+}
+
+textarea {
+ background: #fff;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ border: 1px solid #cfd8dc;
+ padding: 10px 16px;
+ font: #b3bac5;
+ border-radius: 8px;
+
+}
+
+form {
+  margin: 20px auto;
+  width: 90%;
+  align-items: center;
+}
+
+.contact_container input, textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact_container textarea {
+  height: 200px;
+  max-width: 100%;
+}
+
+.contact_container .btn {
+  margin-top: 10px;
+}
+
+.line {
+  background-color: #0d151e;
+  height: 5px;
+  width: 134px;
+  border-radius: 10px;
+  margin-left: 100px;
 }

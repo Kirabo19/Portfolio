@@ -10,13 +10,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   margin: 0;
   padding: 0;
 }
 
 .bk_container {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   max-width: 375px;
   height: 500vh;
   margin: auto;
@@ -305,14 +305,13 @@ section .aim ul li {
   bottom: -9px;
 }
 
-.contact_container{
+.contact_container {
   padding: 10px 0;
   height: 850px;
   border-top-left-radius: 90px;
   background-color: #6070ff;
   margin-top: 3850px;
   width: 375px;
-  
 }
 
 .contact_bk {
@@ -322,17 +321,17 @@ section .aim ul li {
   background-position: top;
 }
 
-.feedback{
+.feedback {
   font-weight: bold;
   font-size: 35px;
-  line-height:52px;
+  line-height: 52px;
   text-align: center;
   color: #fff;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 150px;
-  
 }
-.msg{
+
+.msg {
   color: #ebebff;
   font-size: 20px;
   line-height: 28px;
@@ -344,7 +343,7 @@ section .aim ul li {
   margin-top: 10px;
 }
 
-input, textarea {
+input textarea {
   background: #fff;
   padding: 10px 16px;
   border-radius: 8px;
@@ -363,7 +362,7 @@ input, textarea {
   margin: 20px auto;
 }
 
-.contact_container input, textarea {
+.contact_container textarea input {
   width: 100%;
   margin: 10px 0;
 }
@@ -375,5 +374,4 @@ input, textarea {
   width: 134px;
   margin-top: 10px;
   margin-left: 100px;
-
 }

@@ -10,11 +10,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fff;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
 }
 
 .bk_container {
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
   max-width: 375px;
   height: 500vh;
   margin: auto;
@@ -238,6 +240,11 @@ section .aim ul li {
   text-decoration: none;
 }
 
+.btn:disabled {
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
 .q-text {
   font-size: 15px;
   line-height: 24px;
@@ -281,6 +288,7 @@ section .aim ul li {
   background-color: #fff;
   border-top-right-radius: 100px;
   padding: 100px 0;
+  height: 1263px;
 }
 
 .about_header {
@@ -295,4 +303,75 @@ section .aim ul li {
 .about_img {
   position: relative;
   bottom: -9px;
+}
+
+.contact_container {
+  padding: 10px 0;
+  height: 850px;
+  border-top-left-radius: 90px;
+  background-color: #6070ff;
+  margin-top: 3850px;
+  width: 375px;
+}
+
+.contact_bk {
+  background-image: url('../images/contact\ form\ shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.feedback {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 150px;
+}
+
+.msg {
+  color: #ebebff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 400px;
+}
+
+.contact_container .btn {
+  margin-top: 10px;
+}
+
+input textarea {
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+.contact_container textarea {
+  max-width: 100%;
+  height: 200px;
+}
+
+.contact_container form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact_container textarea input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.line {
+  background: #0d151e;
+  border-radius: 10px;
+  height: 5px;
+  width: 134px;
+  margin-top: 10px;
+  margin-left: 100px;
 }

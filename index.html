@@ -10,20 +10,22 @@
 </head>
 <body>
   <!--header-->
- <div class="bk_container">
-  <div class="port_container">
-    <header class="header">
-      <nav class="navbar">
-        <a href="#" class="logo">
-          <img src="./images/Portfolio_Logo.png" alt="My Logo"/></a>
-         <a>
-          <img src="./images/Enabled.png" alt="Menu"/>
-        </a>
+  <div class="bk_container">
+    <div class="port_container">
+    <header class="navbar">
+      <img src="./images/Portfolio_Logo.png" alt="My Logo" class="logo"/>
+      <nav class="nav">
+          <ul>
+              <li><a href="#" class="" >Portfolio</a></li>
+              <li><a href="#" class="menu_li">About</a></li>
+              <li><a href="#" class="menu_li">Contact</a></li>
+          </ul> 
       </nav>
+      <img src="./images/Enabled.png" alt="menu" class="menu-icon"/>
     </header>
    <!--main section--> 
     <div id="main_section" class="grid" >
-     <div class="container">
+     <div class="main_container">
       <div class="h1">I’m Patrick Ndimukulaga Glad to see you!</div>
       <p class="p">
         I’m a software developer! I can help you build a product , feature or
@@ -53,8 +55,9 @@
       </div>
       </div>
     </div>
-    
+    </div>
     <section class="simi">
+      <!--1st porfolio-->
       <div class="title grid">
        
         <div>
@@ -87,11 +90,9 @@
           <button class="btn btn-mastery" type="button">See Project</button>
         </div>
       </div>
-
+       <!--2nd porfolio-->
       <div class="title grid">
-        <div>
-          <img src="./images/Snapshoot_Portfolio1.png" alt="portfolio"/>
-        </div>
+       
         <div class="title-text">
           <div class="t-text">
             <div class="port">
@@ -118,8 +119,12 @@
 
           <button class="btn btn-mastery" type="button">See Project</button>
         </div>
+        <div>
+          <img src="./images/Snapshoot_Portfolio1.png" alt="portfolio"/>
+        </div>
+      
       </div>
-
+      <!--3rd porfolio-->
       <div class="title grid">
         <div>
           <img src="./images/Snapshoot_Portfolio2.png" alt="image"/>
@@ -149,6 +154,7 @@
           <button class="btn btn-mastery" type="button">See Project</button>
         </div>
       </div>
+      <!--4th porfolio-->
       <div class="title grid">
         <div>
           <img src="./images/Snapshoot_Portfolio3.png" alt="portfolio"/>
@@ -183,10 +189,10 @@
     </section>
 
     <section class="about">
-      <div class="container">
+      <div class="">
         <div>
           <h2 class="about_header">About<br />Myself</h2>
-          <p class="win">
+          <p class="about_text">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience!
             If you like what you see and have a project you need coded,
@@ -209,62 +215,28 @@
             </li>
           </ul>
         </div>
+        <a href="#" class="btn btn-mastery">Get my resume</a>
       </div> 
-      <a href="#" class="btn btn-mastery">Get my resume</a>
-      <div class="aim">
-        <div>
-          <ul>
-            <li aria-expanded="true" aria-haspopup="true">
-              Languages
-             
-              <i class="fa fa-angle-down"></i>
-            </li>
-          </ul>
-            <div class="about_img">
-              <img src="./images/webpng.png" alt="web image">
-            </div>
-        </div>
-        <div>
-          <ul>
-            <li aria-expanded="true" aria-haspopup="true">
-              Framework
-             
-              <i class="fa fa-angle-right"></i>
-            </li>
-          </ul>
-           <hr>
-        </div>
-        <div>
-          <ul>
-            <li aria-expanded="true" aria-haspopup="true">
-              Skills
-             
-              <i class="fa fa-angle-right"></i>
-            </li>
-          </ul>
-          <hr>
-        </div>
+      <div class="about_img">
       </div>
-    
+      
+    </section>
 
-    
-  </section>
-    </div>
     <footer class="contact_container">
       <div class="contact_bk">
      <div class="container flex">
-       <h1 class="feedback">Contact me</h1>
-       <p class="msg">
+       <h1 class="contact_header">Contact me</h1>
+       <p class="contact_p">
         if you have an application you are interested in developing,
         a feature that you need built or a project that needs coding. 
         I'd love to help with it
        </p>
        <div>
          <form action="https://formspree.io/f/mvodnloy" method="post">
-           <input type="text" aria-required="true" maxlength="30" name="name" placeholder="Patrick Rejoice">
+           <input type="text" aria-required="true" maxlength="30" name="name" placeholder="Patrick Ndimukulaga">
            <input type="email" aria-required="true" maxlength="30" name="email" placeholder="kapojames@gmail.com">
            <textarea aria-required="true" maxlength="500" name="message" placeholder="Write your message here"></textarea>
-           <button class="btn" type="submit">Get in Touch</button>
+           <button class="btn" type="submit" >Get in Touch</button>
          </form>
        </div>
        <div class="line"></div>

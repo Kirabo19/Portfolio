@@ -11,4 +11,4 @@ closeMenu.addEventListener('click', toggleMenu);
 
 navItems.forEach((navItem) => {
   navItem.addEventListener('click', toggleMenu);
-})
+});

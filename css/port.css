@@ -88,6 +88,10 @@ body {
   margin-bottom: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mobile-menu ul li a {
   text-decoration: none;
   color: #fff;
@@ -125,9 +129,6 @@ h1 {
   color: #344563;
 }
 
-a {
-  text-decoration: none;
-}
 
 .media_p {
   color: #20254e;

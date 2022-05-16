@@ -9,6 +9,6 @@ function toggleMenu() {
 hamburger.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click', toggleMenu);
 
-for (let navItem of navItems) {
+navItems.forEach((navItem) => {
   navItem.addEventListener('click', toggleMenu);
-}
+})

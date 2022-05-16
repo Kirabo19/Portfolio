@@ -76,6 +76,7 @@ body {
   left: 0;
   background-color: rgb(96, 112, 255, 0.9);
   backdrop-filter: blur(4px);
+  padding: 62px 36px 0 28px;
 }
 
 .mobile-menu ul {
@@ -92,6 +93,11 @@ body {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+.menu-cross {
+  display: block;
+  margin-left: auto;
 }
 
 .main_section {

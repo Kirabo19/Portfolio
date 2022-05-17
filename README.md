@@ -31,11 +31,17 @@ code.
 
 ## Authors
 
-👤 **Author1**
+👤 **Patrick Ndimukulaga**
 
-- GitHub: [@kirabo19](https://github.com/githubhandle)
-- Twitter: [@Ndimuku](https://twitter.com/twitterhandle)
-- LinkedIn: [kapojames](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@kirabo19](https://github.com/kirabo19)
+- Twitter: [@Ndimuku](https://twitter.com/Ndimuku)
+- LinkedIn: [kapojames](https://linkedin.com/in/kapojames)
+
+👤 **Samuel Felice**
+
+- GitHub: [@samWfelcie](https://github.com/samWfelice)
+- Twitter: [@samwfelice](https://twitter.com/samwfelice)
+- LinkedIn: [samfelice](https://www.linkedin.com/in/samfelice)
 
 
 

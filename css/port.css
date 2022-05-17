@@ -68,6 +68,43 @@ body {
   padding-right: 170px;
 }
 
+.mobile-menu {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgb(96, 112, 255, 0.9);
+  backdrop-filter: blur(4px);
+  padding: 62px 36px 0 28px;
+}
+
+.mobile-menu ul {
+  list-style: none;
+}
+
+.mobile-menu ul li {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.menu-cross {
+  display: block;
+  margin-left: auto;
+}
+
 .main_section {
   margin: 114px 0;
   padding: 0 35px;
@@ -90,10 +127,6 @@ h1 {
 .p {
   line-height: 24px;
   color: #344563;
-}
-
-a {
-  text-decoration: none;
 }
 
 .media_p {
@@ -578,4 +611,8 @@ textarea {
     color: #344563;
     width: 720px;
   }
+}
+
+.d-block {
+  display: block;
 }

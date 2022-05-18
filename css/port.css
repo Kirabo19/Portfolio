@@ -439,22 +439,34 @@ textarea {
 }
 
 .modal {
-  position: absolute;
-  padding: 20px;
-  margin: 20px;
-  background-color: #fff;
+  position: fixed;
+  top: 0;
   border-radius: 16px;
-  gap: 12px;
-  top: 20px;
-  /* width: 90%;
-  height: 130vh; */
-  border: 1px solid #dfe1e6;
+  width: 95%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(193, 199, 208, 0.86);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
 }
 
 .modal-content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  position: absolute;
+  padding: 18px 16px 18px 16px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  z-index: 2;
+}
+
+.modal-img {
+  margin-top: 20px;
+  width: 100%;
 }
 
 .modal-head {
@@ -565,21 +577,19 @@ textarea {
 @media (min-width: 768px) {
  
   .modal {
-    position: absolute;
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
     border-radius: 16px;
-    gap: 12px;
-    top: 20px;
-    width: 90%;
-    height: 215vh;
-    border: 1px solid #dfe1e6;
   }
  
   .modal-img {
-    max-width: 550px;
+    width: 50%;
+    margin-top: 25px;
+    align-self: center;
+  }
 
+  .desktop-modal-content {
+    display: flex;
   }
  
   .bk_container {

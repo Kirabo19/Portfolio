@@ -71,17 +71,6 @@ const btn1 = document.getElementById('1');
 const btn2 = document.getElementById('2');
 const btn3 = document.getElementById('3');
 
-function toggleMenu() {
-  document.querySelector('.mobile-nav-menu').classList.toggle('d-block');
-}
-
-hamburgerBtn.addEventListener('click', toggleMenu);
-crossIcon.addEventListener('click', toggleMenu);
-
-navItems.forEach((navItem) => {
-  navItem.addEventListener('click', toggleMenu);
-});
-
 function displayPopup(e) {
   const exData = portfolioData.filter((d) => +(e.target.id) === d.id);
   const data = exData[0];
@@ -112,8 +101,8 @@ function displayPopup(e) {
   canopy.textContent = data.subheading;
   popSubheading.appendChild(canopy);
   const grayMatter = document.createElement('span');
-  canopy.className = 'modal-gray-matter';
-  canopy.textContent = data.subheading2;
+  grayMatter.className = 'modal-gray-matter';
+  grayMatter.textContent = data.subheading2;
   popSubheading.appendChild(grayMatter);
   popContent.appendChild(popSubheading);
   const featuredImage = document.createElement('img');

@@ -138,7 +138,7 @@ function displayPopup(e) {
   liveBtn.setAttribute('target', '_blank');
   liveBtn.textContent = 'See Live ';
   const liveBtnIcon = document.createElement('img');
-  liveBtnIcon.setAttribute('src', './images/github-icon.svg');
+  liveBtnIcon.setAttribute('src', './images/Github-icon.svg');
   liveBtn.appendChild(liveBtnIcon);
   btnWrapper.appendChild(liveBtn);
   const sourceBtn = document.createElement('a');

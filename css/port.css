@@ -578,7 +578,6 @@ textarea {
 /* Popup Modal */
 
 @media (min-width: 768px) {
-
   /* Popup Modal */
   .overlay {
     position: fixed;
@@ -684,8 +683,9 @@ textarea {
     background-color: #fff;
     transition: background-color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   }
+
   /* Popup Modal */
- 
+
   .bk_container {
     max-width: 100%;
     margin: auto;

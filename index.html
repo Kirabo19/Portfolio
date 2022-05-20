@@ -68,7 +68,7 @@
         </div>
       </div>
     </div>
-    
+
     <!--1st porfolio-->
     <section class="simi" id="portfolio">
       <div class="title grid">
@@ -249,12 +249,24 @@
             I'd love to help with it
           </p>
           <div>
-            <form action="https://formspree.io/f/mvodnloy" method="post">
-              <input type="text" aria-required="true" maxlength="30" name="name" placeholder="Patrick Ndimukulaga">
-              <input type="email" aria-required="true" maxlength="30" name="email" placeholder="kapojames@gmail.com">
-              <textarea aria-required="true" maxlength="500" name="message"
-                placeholder="Write your message here"></textarea>
-              <button class="btn" type="submit">Get in Touch</button>
+            <form action="https://formspree.io/f/mvodnloy" method="post" id="contactme">
+              <div>
+                <input type="text" id="name" aria-required="true" maxlength="30" name="name"
+                  placeholder="Enter your full name">
+              </div>
+              <div>
+                <input type="email" id="email" aria-required="true" maxlength="30" name="email"
+                  placeholder="Enter your email address">
+               <div class="bb"> <error-msg class="error"></error-msg></div>
+              </div>
+              <div>
+                <textarea id="message" aria-required="true" maxlength="500" name="message"
+                  placeholder="Write your message here"></textarea>
+                <error-msgs class="error"></error-msgs>
+              </div>
+              <div>
+                <button class="btn" type="submit">Get in Touch</button>
+              </div>
             </form>
           </div>
           <div class="line"></div>

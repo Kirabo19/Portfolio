@@ -70,6 +70,10 @@ const btn0 = document.getElementById('0');
 const btn1 = document.getElementById('1');
 const btn2 = document.getElementById('2');
 const btn3 = document.getElementById('3');
+const emailRegex = /^[a-z]+@[^\s]+\.[^\s]+$/;
+const form = document.querySelector('#contactme');
+const EMAIL_REQUIRED = 'Please enter your email';
+const EMAIL_INVALID = 'Please enter your email address in lower case';
 
 function displayPopup(e) {
   const exData = portfolioData.filter((d) => +(e.target.id) === d.id);
@@ -168,4 +172,46 @@ btn2.addEventListener('click', (e) => {
 });
 btn3.addEventListener('click', (e) => {
   displayPopup(e);
+});
+
+// contact form validation
+function showMessage(input, message, type) {
+  const msg = input.parentNode.querySelector('error-msg');
+  msg.innerText = message;
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
+
+function hasValue(input, message) {
+  if (input.value.trim() === '') {
+    return showError(input, message);
+  }
+  return showSuccess(input);
+}
+
+function validateEmail(input, requiredMsg, invalidMsg) {
+  if (!hasValue(input, requiredMsg)) {
+    return false;
+  }
+
+  const email = input.value.trim();
+  if (!emailRegex.test(email)) {
+    return showError(input, invalidMsg);
+  }
+  return true;
+}
+
+form.addEventListener('submit', (event) => {
+  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID);
+  if (!emailValid) {
+    event.preventDefault();
+  }
 });

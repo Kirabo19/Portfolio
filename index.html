@@ -249,21 +249,21 @@
             I'd love to help with it
           </p>
           <div>
-            <form action="https://formspree.io/f/mvodnloy" method="post">
+            <form action="https://formspree.io/f/mvodnloy" method="post" id="contactme">
               <div>
                 <input type="text" id="name" aria-required="true" maxlength="30" name="name"
-                  placeholder="Patrick Ndimukulaga">
-                <errormsg></errormsg>
+                  placeholder="Enter your full name">
+                <error-msg class="error"></error-msg>
               </div>
               <div>
                 <input type="email" id="email" aria-required="true" maxlength="30" name="email"
-                  placeholder="kapojames@gmail.com">
-                <errormsg></errormsg>
+                  placeholder="Enter your email address">
+               <div class="bb"> <error-msg class="error"></error-msg></div>
               </div>
               <div>
                 <textarea id="message" aria-required="true" maxlength="500" name="message"
                   placeholder="Write your message here"></textarea>
-                <errormsg></errormsg>
+                <error-msgs class="error"></error-msg>
               </div>
               <div>
                 <button class="btn" type="submit">Get in Touch</button>

@@ -178,7 +178,7 @@ btn3.addEventListener('click', (e) => {
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('error-msg');
   msg.innerText = message;
-  input.className = type ?'success' : 'error';
+  input.className = type ? 'success' : 'error';
   return type;
 }
 
@@ -193,25 +193,24 @@ function showSuccess(input) {
 function hasValue(input, message) {
   if (input.value.trim() === '') {
     return showError(input, message);
-	}
+  }
   return showSuccess(input);
 }
 
 function validateEmail(input, requiredMsg, invalidMsg) {
   if (!hasValue(input, requiredMsg)) {
     return false;
-	}
+  }
 
-const email = input.value.trim();
+  const email = input.value.trim();
   if (!emailRegex.test(email)) {
     return showError(input, invalidMsg);
-	}
+  }
   return true;
 }
 
-
-form.addEventListener('submit', function (event) {
-  let emailValid = validateEmail(form.elements['email'], EMAIL_REQUIRED, EMAIL_INVALID);
+form.addEventListener('submit', (event) => {
+  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID);
   if (!emailValid) {
     event.preventDefault();
   }
